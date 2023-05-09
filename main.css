@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  font-weight: bold;
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+.attribution {
+  display: none;
+}
+
+.container {
+  margin: auto;
+  width: 33rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 1.5rem;
+}
+.container #text {
+  width: 25rem;
+  color: hsl(193deg, 38%, 86%);
+  padding: 0.5rem;
+  font-size: 28px;
+}
+.container .divider img {
+  margin-bottom: 2rem;
+  -webkit-filter: invert(15%);
+          filter: invert(15%);
+}
+.container button {
+  background-color: hsl(150deg, 100%, 66%);
+  border: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: -1.5rem;
+}
+.container .btn :hover {
+  -webkit-box-shadow: 0px 0px 20px hsl(150deg, 100%, 66%);
+          box-shadow: 0px 0px 20px hsl(150deg, 100%, 66%);
+}
+
+.id {
+  padding-top: 2rem;
+  text-transform: uppercase;
+  color: hsl(150deg, 100%, 66%);
+  letter-spacing: 2px;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    width: 28rem;
+  }
+  .divider img {
+    max-width: 25rem;
+  }
+}
